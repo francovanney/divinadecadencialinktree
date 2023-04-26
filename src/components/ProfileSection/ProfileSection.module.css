@@ -10,9 +10,9 @@
 
 .Picture {
   display: inline-block;
-  width: 8.8rem;
-  height: 8.8rem;
-  border-radius: 50%;
+  width: 15rem;
+  height: 12rem;
+  margin-bottom: 5em;
 }
 
 .ProfileLink {

@@ -1,32 +1,27 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 import style from './LinkSection.module.css';
 
 const LinkSection = props => {
   return (
+    <>
     <ul className={style.LinkSection}>
+{/*     <li className={style.List}>
+        <a href="" id="pitch" className={style.Link2} rel="noreferrer noopenner" target="_blank"><span className={style.new}>¡NEW!</span> Sesión En Estudios RecBox</a>
+      </li> */}
       <li className={style.List}>
-        <a href="https://twitter.com/vrma_aakash" id="twitter__link" className={style.Link} rel="noreferrer noopenner" target="_blank">Twitter Link</a>
+        <a href="https://www.instagram.com/divinadecadenciaok/" id="pitch" className={style.Link} rel="noreferrer noopenner" target="_blank">Instagram</a>
       </li>
       <li className={style.List}>
-        <a href="https://training.zuri.team/" id="btn__zuri" className={style.Link} rel="noreferrer noopenner" target="_blank">Zuri Team</a>
+        <a href="https://www.youtube.com/channel/UCE7OHFHafE6BrjX-iUuBWBw" className={style.Link} id="book__design" rel="noreferrer noopenner" target="_blank">Youtube</a>
       </li>
       <li className={style.List}>
-        <a href="http://books.zuri.team/" id="books" className={style.Link} rel="noreferrer noopenner" target="_blank">Zuri Books</a>
-      </li>
-      <li className={style.List}>
-        <a href="https://books.zuri.team/python-for-beginners?ref_id=skyv26" id="book__python" className={style.Link} rel="noreferrer noopenner" target="_blank">Python Books</a>
-      </li>
-      <li className={style.List}>
-        <a href="https://background.zuri.team/" id="pitch" className={style.Link} rel="noreferrer noopenner" target="_blank">Let's Check Coders Experience</a>
-      </li>
-      <li className={style.List}>
-        <a href="https://books.zuri.team/design-rules" className={style.Link} id="book__design" rel="noreferrer noopenner" target="_blank">Design Books</a>
-      </li>
-      <li className={style.List}>
-        <NavLink to="/contact" id="contact" className={style.Link}>Contact Me</NavLink>
+        <a href="https://forms.gle/fJEmjGWAbHmULB137" className={style.Link} target="_blank" rel="noopener noreferrer">Presupuesto</a>
       </li>
     </ul>
+          <div className={style.VideoContainer}>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/lWf7n-SgPHM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+    </>
   );
 };
 

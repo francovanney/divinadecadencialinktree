@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-
+@font-face {
+  font-family: 'Stereo';
+  src: url('./assets/STEREOFI.TTF');
+}
 *,
 *::after,
 *::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Stereo', sans-serif;
 }
 
 html {
@@ -18,6 +21,10 @@ body {
   width: 100%;
   padding: 2rem 1.6rem;
   min-height: 100vh;
+  background-color: black;
+  background-image: url('./assets/BACKGROUND\ ESPACIO.jpg');
+  background-size: 1600px;
+  background-repeat: no-repeat;
 }
 
 @media (min-width: 768px) {

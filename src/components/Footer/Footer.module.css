@@ -11,8 +11,10 @@
 
 .Content {
   display: flex;
-  flex-direction: column;
-  gap: 1.6rem;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
 }
 
 .Link {
@@ -27,12 +29,26 @@
 }
 
 .Text {
+  font-family: 'Courier New', Courier, monospace;
   font-size: 1.6rem;
   font-weight: 400;
-  color: rgba(102, 112, 133, 1);
+  color: rgb(183, 188, 199);
 }
 
-@media (min-width: 768px) {
+a {
+  text-decoration: none;
+}
+
+.Image {
+  display: inline-block;
+  width: 15rem;
+}
+
+.ImageDivina {
+  width: 10rem;
+}
+
+@media (max-width: 920px) {
   .Footer {
     display: flex;
     flex-direction: row;
@@ -47,11 +63,6 @@
     justify-content: space-between;
   }
 
-  .Image {
-    display: inline-block;
-    width: 15rem;
-  }
-
   .Dot {
     position: absolute;
     left: 4rem;
@@ -61,4 +72,14 @@
   .Text {
     font-size: 1.25rem;
   }
+
+  .Image {
+    display: inline-block;
+    width: 10rem;
+  }
+  
+  .ImageDivina {
+    width: 6rem;
+  }
+  
 }
