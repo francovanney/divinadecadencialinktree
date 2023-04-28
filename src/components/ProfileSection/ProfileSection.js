@@ -5,7 +5,10 @@ import Logo from '../../assets/Logo Divina Decadencia Low.png';
 const ProfileSection = () => {
   return (
     <div className={style.ProfileContainer}>
-      <img id="profile__img" className={style.Picture} src={Logo} alt="See Aakash Verma" />
+      <a href="https://www.instagram.com/divinadecadenciaok/" rel="noreferrer noopenner" target="_blank">
+      <img id="profile__img" className={style.Picture} src={Logo} alt="Divina Decadencia" />
+      </a>
+      <p className={style.subtitle}>🎺 TrIbuto a Los AutentIcos Decadentes 🎉</p>
     </div>
   );
 };

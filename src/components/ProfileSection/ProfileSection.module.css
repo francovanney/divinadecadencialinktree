@@ -10,10 +10,30 @@
 
 .Picture {
   display: inline-block;
-  width: 15rem;
-  height: 12rem;
-  margin-bottom: 5em;
+  width: 18rem;
+  height: 14rem;
+  filter: drop-shadow(1px 0px 15px rgb(177, 5, 250));
+  animation: shadow 5s ease-in-out infinite;
 }
+
+@keyframes shadow {
+  0% {
+    filter: drop-shadow(1px 0px 5px rgb(177, 5, 250));
+  }
+  25% {
+    filter: drop-shadow(1px 5px 25px rgb(107, 5, 250));
+  }
+  50% {
+    filter: drop-shadow(1px 5px 25px rgb(250, 5, 217));
+  }
+  75% {
+    filter: drop-shadow(1px 5px 25px rgb(107, 5, 250));
+  }
+  100% {
+    filter: drop-shadow(1px 0px 10px rgb(177, 5, 250));
+  }
+}
+
 
 .ProfileLink {
   text-decoration: none;
@@ -24,4 +44,12 @@
 
 .ShouldNotVisible {
   visibility: hidden;
+}
+
+.subtitle {
+  color: white;
+  font-size: 2.2em;
+  margin-bottom: 2em;
+  letter-spacing: .5px;
+  text-shadow: 1px 0px 0px black;
 }

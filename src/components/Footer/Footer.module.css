@@ -1,6 +1,6 @@
 .Footer {
   display: flex;
-  flex-direction: column;
+  flex-direction: column !important;
   align-items: flex-start;
   margin-top: 2.5rem;
   padding: 3.5rem 0 2rem 0;
@@ -11,7 +11,8 @@
 
 .Content {
   display: flex;
-  justify-content: space-between;
+  justify-content: center !important;
+  gap: 100px;
   align-items: center;
   flex-direction: row;
   width: 100%;
@@ -30,9 +31,23 @@
 
 .Text {
   font-family: 'Courier New', Courier, monospace;
-  font-size: 1.6rem;
-  font-weight: 400;
-  color: rgb(183, 188, 199);
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: rgb(224, 227, 233);
+}
+
+.TextCop {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: rgb(224, 227, 233);
+  margin-top: 2px;
+  text-align: center;
+}
+
+.ContainerText {
+  align-self: center;
+  margin-top: 10px;
 }
 
 a {
