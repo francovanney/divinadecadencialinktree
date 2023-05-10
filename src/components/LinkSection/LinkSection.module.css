@@ -4,12 +4,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
+  gap: .5rem;
   list-style: none;
 }
 
 .List {
-  width: 50%;
+  width: 70%;
 }
 
 /* .Link {
@@ -90,4 +90,8 @@
 
 .new {
   color: yellow !important;
+}
+
+.emoji {
+  font-size: .7em;
 }
