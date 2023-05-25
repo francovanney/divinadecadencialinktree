@@ -18,14 +18,32 @@ html {
 }
 
 body {
-  width: 100%;
-  padding: 2rem 1.6rem;
-  min-height: 100vh;
-  background-color: black;
-  background-image: url('./assets/BACKGROUND\ ESPACIO.jpg');
-  background-size: 1600px;
-  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  position: relative;
 }
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  background-image: url('./assets/backDD.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  animation: moveBackground 10s cubic-bezier(0.4, 0.1, 0.6, 0.9) infinite;
+  z-index: -1;
+}
+
+@keyframes moveBackground {
+  0%, 100% { background-position: 0% 0%; }
+  50% { background-position: 100% 100%; }
+}
+
 
 @media (min-width: 768px) {
   body {

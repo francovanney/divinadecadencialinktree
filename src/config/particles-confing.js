@@ -1,5 +1,4 @@
 const particlesConfig = {
-
         autoPlay: true,
         background: {
           color: {
@@ -339,7 +338,7 @@ const particlesConfig = {
               enable: false,
               minimumValue: 1
             },
-            value: 3,
+            value: 20, // TAMAÑO //
             animation: {
               count: 0,
               enable: false,
@@ -568,7 +567,7 @@ const particlesConfig = {
               enable: false
             },
             shape: {
-              type: "circle"
+              type: "edge" // FORMA //
             }
           },
           position: {

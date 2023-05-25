@@ -5,8 +5,8 @@ const LinkSection = props => {
   return (
     <>
     <ul className={style.LinkSection}>
-    <li className={style.List}>
-        <a href="https://www.instagram.com/cityrock.restobar/" id="pitch" className={style.Link2} rel="noreferrer noopenner" target="_blank"><span className={style.emoji}>🎫</span> <span className={style.new}> ¡Entradas!</span> City Rock 27/5</a>
+      <li className={style.List}>
+        <a href="https://www.youtube.com/watch?v=N32dYNp3m54&list=PLFfoYWmZbcnEW0BLyRG0GBNuDFL21wm3K&index=1" id="pitch" className={style.Link2} rel="noreferrer noopenner" target="_blank"><span className={style.emoji}>🎶 </span> Sesión <span className={style.new}> #EnElEstudio</span></a>
       </li>
       <li className={style.List}>
         <a href="https://www.instagram.com/divinadecadenciaok/" id="pitch" className={style.Link} rel="noreferrer noopenner" target="_blank">Instagram</a>
@@ -22,8 +22,7 @@ const LinkSection = props => {
       </li>
     </ul>
           <div className={style.VideoContainer}>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/lWf7n-SgPHM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          </div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/N32dYNp3m54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>          </div>
     </>
   );
 };
